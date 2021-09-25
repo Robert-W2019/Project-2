@@ -681,12 +681,12 @@ browser.quit()
 executable_path = {'executable_path': ChromeDriverManager().install()}
 browser = Browser('chrome', **executable_path, headless=False)
 
-pageUrl=""
-table_of_tables = []
+    pageUrl=""
+    table_of_tables = []
 
 
 
-for i in list(50,75,100):
+    for i in list(50,75,100):
     
     table_on_page = []
     
