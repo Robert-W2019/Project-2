@@ -48,10 +48,13 @@ for i in list(50,75,100):
         soup = BeautifulSoup(res.content,'lxml')
         table = soup.find_all('table')[0]
         table_on_page.append(table)
-#         table_of_tables.append(table_on_page)
+	table_of_tables.append(table_on_page)
         df = pd.read_html(str(table))[0]
         print(df)
-browser.quit()
+               
+             
+        
+browser.quit()    
                
              
         
