@@ -91,7 +91,7 @@ browser.quit()
     ----------
 
 Now that I had a proof of concept with a more forgiving site I moved on to using a public site not designed for scraping. I tried a few different sites, but ultimately used the City Lights Booksellers & Publishers website’s (bookstore in San Francisco) Greek & Roman classic book section found here:
-[Books2Scrape]( https://citylights.com/greek-roman/)
+[City Lights Website]( https://citylights.com/greek-roman/)
 ![City Lights Website](https://github.com/Robert-W2019/Project-2/blob/main/Capture/citylights.JPG?raw=true)
 ```python
 #grab data from https://citylights.com/greek-roman/
