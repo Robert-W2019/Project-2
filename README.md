@@ -1,6 +1,6 @@
 # Project-2 - ETL
 
-##**E**xtract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
+## **E**xtract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
 
 Extract is where I spent most of the project's time.
 
@@ -176,7 +176,7 @@ browser.quit()
 
 
 
-##**T**ransform: what data cleaning or transformation was required.
+## **T**ransform: what data cleaning or transformation was required.
 I initially to used Splinter, BeautifulSoup, and Pandas to put the practice site data into a DataFrame then a CSV.
 
 ```python
@@ -478,7 +478,7 @@ I then attempted to combine the two datasets (Kaggle CSV and City Lights CSV); h
 Although my goal was to combine and compare the two via ISBN it did not work out so I moved onto the Loading portion.
 
 
-##**L**oad: the final database, tables/collections, and why this was chosen.
+## **L**oad: the final database, tables/collections, and why this was chosen.
 
 For loading I put all of the data into MongoDB, screenshots below:
 
